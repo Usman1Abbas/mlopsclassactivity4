@@ -1,0 +1,7 @@
+CI/CD improves collaboration by automating integration, testing, and deployment — ensuring all team members work on consistent code and models with fewer manual errors.
+
+If evaluation score is below threshold, the workflow can be configured to fail or halt deployment, preventing low-quality models from being released.
+
+ Retraining or drift detection can be added as scheduled or triggered jobs that monitor data changes or performance drops and automatically retrain models when needed.
+
+ To deploy to production, containerize the model, push the image to a registry, and use cloud infrastructure (e.g., AWS SageMaker, ECS, or Kubernetes) to pull and serve the model via CI/CD deployment steps.
